@@ -1,0 +1,22 @@
+branch-defaults:
+  default:
+    environment: barstatanalytics-mdb
+environment-defaults:
+  barstatanalytics-mdb:
+    branch: default
+    repository: origin
+global:
+  application_name: BarstatAnalytics
+  branch: master
+  default_ec2_keyname: cam-key-pair
+  default_platform: arn:aws:elasticbeanstalk:us-east-1::platform/Node.js running on
+    64bit Amazon Linux/4.8.0
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: draftpicks
+  sc: git
+  workspace_type: Application
