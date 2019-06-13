@@ -27,16 +27,6 @@
                 font-family: 'Fira Sans', sans-serif;
             }
 
-            .streak.streak-photo {
-                background-attachment: fixed;
-            }
-
-            @media (min-width: 800px) and (max-width: 850px) {
-                .navbar:not(.top-nav-collapse) {
-                    background: rgb(90, 43, 43) !important;
-                }
-            }
-
             img {
                 image-orientation: from-image;
             }
@@ -100,20 +90,35 @@
 
         <div class="container text-center mt-5">
             <div class="row justify-content-center wow fadeIn slow">
-                <div class="card m-5 w-50">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" allowfullscreen controls>
-                            <source src="/videos/TJVid.mp4" type="video/mp4">
-                            <source src="/videos/TJVid.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
+
+                <div class="embed-responsive embed-responsive-16by9 m-5 w-50">
+                    <video class="embed-responsive-item" allowfullscreen controls>
+                        <source src="/videos/TJVid.mp4" type="video/mp4">
+                        <source src="/videos/TJVid.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
 
-            <div class="row my-5 mx-5 wow fadeIn">
+            <hr class="mx-5">
+            <h3 class="font-weight-bold mt-4">TJ Malveaux</h3>
+            <hr class="mx-5">
+
+            <div class=" row my-5 mx-5 wow fadeIn">
                 <div class="col-7">
-                    <p class="text-md-left">TJ's bio
+                    <p class="text-md-left mt-2">From Morgan City Louisiana, currently residing in Baton Rouge
+                        Lousiana. TJ's style remains on the cutting edge, which has helped him build an unwavering &
+                        rapidly growing clientele base in the Baton Rouge area.</p>
+
+                    <p class="text-md-left">He can be considered the "Athletes Barber" for the
+                        majority of men's sports at Lousiana State University (LSU). He has 30+ active NFL clients
+                        on nearly 15 of the 32 NFL teams and has styled his clients at the 2017 & 2019 NFL Drafts,
+                        as well as the 2019 Pro Bowl.</p>
+
+                    <p class="text-md-left">He also had the opportunity to be the
+                        stylist for several celebrities throughout his career. Sharp lines & smooth fades have been a
+                        trademark of his talent, as he continues to become a styling phenom in Lousiana and other parts
+                        of the US.
                     </p>
 
                 </div>
@@ -129,7 +134,7 @@
             <section class="text-center my-5 mx-5">
 
                 <!-- Grid row -->
-                <div class="row wow fadeIn">
+                <div class="row wow fadeIn mb-5">
 
                     <!-- Grid column -->
                     <div class="col-md-4">
@@ -148,37 +153,63 @@
 
                         <h3 class="font-weight-bold fa-3x">45+</h3>
                         <h5 class="font-weight-bold mb-4 mt-3">Pro & College Athletes Served</h5>
-                        <p class="grey-text mb-md-0 mb-sm-5">Including Jamal Adams, Tre'Davious White, Devin White, and
+                        <p class="grey-text mb-md-0 mb-sm-5">Including Jamal Adams, Tre'Davious White, Devin White,
+                            and
                             Marcus
                             Spears
                         </p>
-
-
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
                     <div class="col-md-4">
+                        <h3 class="font-weight-bold fa-3x">30+</h3>
+                        <h5 class="font-weight-bold mb-4 mt-3">Active Pro Athete Clients</h5>
+                        <p class="grey-text mb-md-0 mb-sm-5">TJ has at least 1 active client on 15 of the 32 current NFL
+                            team rosters.
+                        </p>
 
-                        <h3 class="font-weight-bold fa-3x">2</h3>
-                        <h5 class="font-weight-bold mb-4 mt-3">NFL Draft Appearances</h5>
-                        <div class="row mx-5">
-                            <div class="col">
-                                <ul class="list-unstyled text-muted">
-                                    <li>2017</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul class="list-unstyled text-muted">
-                                    <li>2019</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                     <!-- Grid column -->
 
                 </div>
                 <!-- Grid row -->
+
+                <div class="row wow fadeIn my-5 text-white">
+                    <div class="col ml-5">
+                        <div class="wrapper p-5 grey ligthen-2 rounded">
+                            <h3 class="font-weight-bold fa-3x">2</h3>
+                            <h5 class="font-weight-bold mb-4 mt-3">NFL Draft Appearances</h5>
+                            <div class="row mx-5">
+                                <div class="col">
+                                    <ul class="list-unstyled text-white">
+                                        <li>2017</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled text-white">
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="mx-auto"></span>
+                    <div class="col text-white mr-5">
+                        <div class="wrapper p-5 grey ligthen-2 rounded">
+                            <h3 class="font-weight-bold fa-3x">1</h3>
+                            <h5 class="font-weight-bold mb-4 mt-3">NFL Pro Bowl Appearance</h5>
+                            <div class="row mx-5">
+                                <div class="col">
+                                    <ul class="list-unstyled text-white">
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </section>
             <!-- Section: Features v.1 -->
@@ -364,11 +395,6 @@
         <script type="text/javascript">
             // Animations initialization
             new WOW().init();
-
-            // MDB Lightbox Init
-            $(function () {
-                $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-            });
 
         </script>
     </body>
