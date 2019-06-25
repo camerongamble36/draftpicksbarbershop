@@ -1,0 +1,25 @@
+[debug] [2019-06-25T15:11:15.312Z] ----------------------------------------------------------------------
+[debug] [2019-06-25T15:11:15.315Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cameron\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-06-25T15:11:15.315Z] CLI Version:   6.10.0
+[debug] [2019-06-25T15:11:15.315Z] Platform:      win32
+[debug] [2019-06-25T15:11:15.316Z] Node Version:  v10.13.0
+[debug] [2019-06-25T15:11:15.319Z] Time:          Tue Jun 25 2019 10:11:15 GMT-0500 (Central Daylight Time)
+[debug] [2019-06-25T15:11:15.319Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-25T15:11:15.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-25T15:11:15.335Z] > authorizing via signed-in user
+[debug] [2019-06-25T15:11:15.335Z] [iam] checking project draft-picks-barbershop for permissions ["firebase.projects.get"]
+[debug] [2019-06-25T15:11:15.338Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/draft-picks-barbershop:testIamPermissions  
+
+[debug] [2019-06-25T15:11:15.745Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-25T15:11:15.750Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/draft-picks-barbershop  
+ 
+[debug] [2019-06-25T15:11:16.045Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Cameron\Desktop\business\freelance\draftpicks'...
+[info] 
+[debug] [2019-06-25T15:11:16.054Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/310515074685/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-25T15:11:16.348Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
