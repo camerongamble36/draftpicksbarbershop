@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 var athletesRouter = require('./routes/athletes');
 var aboutTjRouter = require('./routes/aboutTj');
 var barbersRouter = require('./routes/barbers');
+var blogRouter = require('./routes/blog');
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -38,6 +39,7 @@ app.use('/users', usersRouter);
 app.use('/athletes', athletesRouter);
 app.use('/aboutTj', aboutTjRouter);
 app.use('/barbers', barbersRouter);
+app.use('/blog', blogRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
